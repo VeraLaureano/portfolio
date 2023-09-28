@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import PropTypes from 'prop-types'
 import './Hero.css'
 
-const Hero = () => {
+const Hero = ({image}) => {
   const [text, setText] = useState('Laureano');
   const textLoad = () => {
     setTimeout(() => {
@@ -27,10 +28,14 @@ const Hero = () => {
         <p className="Hero__desc">Model:<br/> 0000 0000 0001 0111<br/> 0000 0000 0001 0010<br/> 0010 0000 0000 0010</p>
       </div>
       <div className="Hero__visual">
-        <img className="Hero__image" src="/images/hero.jpg" alt="Photography by Hugo Heimendinger" />
+        <img className="Hero__image" src={image} alt="Photography by Hugo Heimendinger" />
       </div>
     </section>
   )
+}
+
+Hero.propTypes = {
+  image: PropTypes.string
 }
 
 export default Hero
