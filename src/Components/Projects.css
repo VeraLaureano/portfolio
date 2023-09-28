@@ -1,0 +1,10 @@
+.Projects {
+  min-height: 100vh;
+  margin-bottom: var(--mb-6);
+  padding: var(--mb-2);
+}
+
+.Projects__title {
+  font-size: calc(var(--title-size) * 1.1);
+  margin-top: var(--mb-2);
+}

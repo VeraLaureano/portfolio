@@ -1,0 +1,13 @@
+.Title{
+  position: relative;
+  margin-bottom: var(--mb-1);
+}
+
+.Title::before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 1px;
+  background-color: var(--primary);
+  bottom: -2px;
+}

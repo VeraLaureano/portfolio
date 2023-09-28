@@ -1,0 +1,31 @@
+.Footer {
+  margin-top: var(--mb-4);
+  min-height: 40vh;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0px 3px var(--primary);
+  font-size: 14px;
+}
+
+.Footer__links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  max-width: 320;
+  margin: 0 auto;
+}
+
+.Footer__right {
+  margin-top: var(--mb-5);
+}
+
+.Footer__link {
+  transition: .126s;
+}
+
+.Footer__link:hover {
+  color: var(--primary);
+}
