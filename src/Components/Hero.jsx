@@ -5,10 +5,10 @@ const Hero = () => {
   const [text, setText] = useState('Laureano');
   const textLoad = () => {
     setTimeout(() => {
-      setText('Laureano')
+      setText('L4ureano')
     }, 0);
     setTimeout(() => {
-      setText('Developer')
+      setText('Develop3r')
     }, 4000);
   }
 

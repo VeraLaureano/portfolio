@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0px 3px var(--primary);
+  box-shadow: 0 0px 4px var(--primary);
   font-size: 14px;
 }
 
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-evenly;
   width: 60%;
-  max-width: 320;
+  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -28,4 +28,10 @@
 
 .Footer__link:hover {
   color: var(--primary);
+}
+
+@media screen and (max-width: 479px) {
+  .Footer__links {
+    width: 100%;
+  }
 }

@@ -3,16 +3,16 @@
   --black: #010101;
   --font: #E3E3E3;
   --gray: #707070;
-  --primary: #D9BA5F;
-  /* --primary: red; */
+  /* --primary: #D9BA5F; */
+  /* --primary: #af2020; */
+  --primary: #b11e1e;
   
   --mb-1: .25rem; 
   --mb-2: .75rem; 
   --mb-3: 1.25rem; 
   --mb-4: 1.5rem; 
   --mb-5: 2.15rem; 
-  /* --mb-6: 3rem;  */
-  --mb-6: 1.94rem; 
+  --mb-6: 3rem;  
 
   --title-size: calc(var(--mb-6) * 1.97);
   --text-small: 14px;
@@ -77,6 +77,6 @@ h4,
 
 @media screen and (max-width: 374px) {
   :root {
-    --mb-6: 1.64rem; 
+    --mb-6: 1.54rem; 
   }
 }
