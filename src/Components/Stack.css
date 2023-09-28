@@ -1,8 +1,9 @@
 .Stack {
-  height: 25vh;
+  height: 30vh;
   background-color: var(--black);
   display: flex;
   justify-content: space-around;
+  align-items: center;
   box-shadow: 0 0 5px var(--black);
 }
 

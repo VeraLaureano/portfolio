@@ -1,6 +1,6 @@
 .Footer {
   margin-top: var(--mb-4);
-  min-height: 40vh;
+  min-height: 30vh;
   background-color: var(--black);
   display: flex;
   flex-direction: column;
