@@ -13,7 +13,7 @@ const About = () => {
         <p className="About__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus quisquam, sapiente sint at quia harum porro. Id, accusamus? Temporibus a laborum eos, soluta rem veniam labore aliquid aspernatur. Molestias recusandae voluptates exercitationem aperiam id nisi. Tenetur consequuntur laboriosam culpa vero.</p>
         <ul className="About__links">
           <li><Anchor link="https://www.instagram.com/v3r4_l4ur1/"><i className="fa-brands fa-instagram"></i></Anchor></li>
-          <li><Anchor link="https://github.com/LaureanoVera"><i className="fa-brands fa-github"></i></Anchor></li>
+          <li><Anchor link="https://github.com/VeraLaureano"><i className="fa-brands fa-github"></i></Anchor></li>
           <li><Anchor link="https://www.linkedin.com/in/laureano-vera-320086204/"><i className="fa-brands fa-linkedin-in"></i></Anchor></li>
         </ul>
         <p className="About__other"><code>2023?</code></p>
