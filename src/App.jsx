@@ -1,3 +1,4 @@
+import './App.css'
 import About from "./Components/About"
 import Footer from "./Components/Footer"
 import Hero from "./Components/Hero"
