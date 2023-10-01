@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
 import About from "./Components/About"
 import Footer from "./Components/Footer"
 import Hero from "./Components/Hero"
@@ -8,7 +7,6 @@ import Timeline from "./Components/Timeline"
 import heroImage from '/hero.jpg'
 import projectOneImage from '/01.png'
 import projectTwoImage from '/02.png'
-import MyNavbar from "./Components/Navbar"
 
 const projects = [{
   name: 'Auth Service',
@@ -29,7 +27,6 @@ const projects = [{
 function App() {
   return (
     <>
-      <MyNavbar />
       <main>
         <Hero image={heroImage} />
         <About />
