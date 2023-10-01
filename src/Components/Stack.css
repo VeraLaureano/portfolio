@@ -29,6 +29,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: var(--mb-5);
+}
 
 .Stack__link {
   font-size: 14px;
