@@ -75,6 +75,11 @@
     --mb-6: 2.27rem; 
   }
 
+  .Hero {
+    padding-top: var(--nav-height);
+    height: calc(100vh - var(--nav-height));
+  }
+
   .Hero__info {
     flex-direction: column;
     align-items: flex-start;

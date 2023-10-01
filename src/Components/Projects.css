@@ -4,7 +4,3 @@
   padding: var(--mb-2);
 }
 
-.Projects__title {
-  font-size: calc(var(--title-size) * 1.1);
-  margin-top: var(--mb-2);
-}

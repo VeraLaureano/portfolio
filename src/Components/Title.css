@@ -11,3 +11,9 @@
   background-color: var(--primary);
   bottom: -2px;
 }
+
+@media screen and (max-width: 479px) {
+  .Title::before {
+    height: 2px;
+  }
+}

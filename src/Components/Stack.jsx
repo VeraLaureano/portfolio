@@ -4,7 +4,7 @@ import './Stack.css'
 
 const Stack = () => {
   return (
-    <section className="Stack">
+    <section id="st4ck" className="Stack">
     <div className="Stack__info">
       <Title>DEV St4ck</Title>
       <ul className="Stack__list">

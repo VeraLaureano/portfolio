@@ -1,0 +1,5 @@
+.Navbar {
+  background: #030303a0;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filtser: blur(2px);
+}

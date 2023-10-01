@@ -1,0 +1,7 @@
+.Link {
+  transition: .126s;
+}
+
+.Link:hover {
+  color: var(--primary);
+}

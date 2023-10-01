@@ -1,6 +1,6 @@
 .Footer {
   margin-top: var(--mb-4);
-  min-height: 30vh;
+  min-height: 35vh;
   background-color: var(--black);
   display: flex;
   flex-direction: column;
@@ -11,6 +11,7 @@
 }
 
 .Footer__links {
+  padding-left: 0;
   display: flex;
   justify-content: space-evenly;
   width: 60%;

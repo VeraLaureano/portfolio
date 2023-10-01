@@ -1,0 +1,4 @@
+.BigTitle {
+  font-size: calc(var(--title-size) * 1.1);
+  margin-top: var(--mb-2);
+}

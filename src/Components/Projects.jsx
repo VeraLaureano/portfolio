@@ -2,11 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './Projects.css'
 import Project from './Project'
+import BigTitle from './BigTitle'
 
 const Projects = ({ projects }) => {
   return (
-    <section className="Projects">
-    <h2 className="Projects__title">Proj3cts</h2>
+    <section id="pr0j3cts" className="Projects">
+    <BigTitle>Proj3cts</BigTitle>
     <div className="Projects__container">
       {projects.map((project, i) => 
         <Project

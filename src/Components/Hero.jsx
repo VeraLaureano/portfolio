@@ -19,7 +19,7 @@ const Hero = ({image}) => {
   }, [])
 
   return (
-    <section className='Hero'>
+    <section id='hom3' className='Hero'>
       <div className="Hero__info">
         <div className="Hero__titles">
           <p className='Hero__sub'>I am ·</p>
