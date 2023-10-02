@@ -62,13 +62,12 @@ h4,
 
 @media screen and (max-width: 479px) {
   :root {
-    --nav-height: 2.5rem;
-    --mb-6: 1.94rem; 
+    --title-size: calc(var(--mb-6) * 1.6);
   }
 }
 
 @media screen and (max-width: 374px) {
   :root {
-    --mb-6: 1.54rem; 
+    --title-size: calc(var(--mb-6) * 1.32);
   }
 }

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import './Project.css'
 import Title from './Title'
 
-const Project = ({ name, techs, desc, visit, code, image }) => {
+const Project = ({ name, techs, visit, code, image, children }) => {
     const toString = (techs) => {
       let string = ''
 
@@ -23,7 +23,7 @@ const Project = ({ name, techs, desc, visit, code, image }) => {
             <Title>{name}</Title>
             <code className="tech">{toString(techs)}</code>
           </div>
-          <p className="desc">{desc}</p>
+          <p className="desc">{children}</p>
           <div className="links">
             <a rel='noreferrer' href={visit} target="_blank"><i className="fa-solid fa-link"></i> Visit</a>
             <a rel='noreferrer' href={code} target="_blank"><i className="fa-solid fa-code"></i> Code</a>
@@ -39,16 +39,15 @@ const Project = ({ name, techs, desc, visit, code, image }) => {
 Project.propTypes = {
   name: PropTypes.string,
   techs: PropTypes.array,
-  desc: PropTypes.string,
   visit: PropTypes.string,
   code: PropTypes.string,
-  image: PropTypes.string
+  image: PropTypes.string,
+  children: PropTypes.node
 }
 
 Project.defaultProps = {
   name: 'Project',
   techs: [],
-  desc: 'Project',
   visit: '/',
   code: '/',
   image: ''
