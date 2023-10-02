@@ -1,5 +1,13 @@
 .Navbar {
-  background: #030303a0;
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filtser: blur(2px);
+  background: #0303039a;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filtser: blur(3px);
+}
+
+.Navbar__link {
+  transition: .127s;
+}
+
+.Navbar__link:hover {
+  color: var(--primary);
 }

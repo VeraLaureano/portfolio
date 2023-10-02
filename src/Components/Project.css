@@ -1,6 +1,5 @@
 .Project {
   border-top: 1px solid var(--gray);
-  margin-top: var(--mb-5);
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 40vh;
@@ -21,6 +20,8 @@
 .Project__info > .desc {
   font-size: 14px;
   margin: var(--mb-3) 0;
+  margin-right: var(--mb-2);
+  word-break: break-all;
 }
 
 .Project__info > .links > a {
@@ -33,7 +34,6 @@
 }
 
 .Project__visual {
-  height: 38vh;
   width: 100%;
 }
 
@@ -44,7 +44,7 @@
   background-position: center;
   background-attachment: fixed;
   transition: .104s;
-  filter: grayscale(1) opacity(.9);
+  filter: grayscale(.35);
 }
 
 .Project__visual > .image:hover {
@@ -59,6 +59,10 @@
     flex-direction: column-reverse;
     border-top: none;
     border-bottom: 1px solid var(--gray);
+  }
+
+  .Project__info > .desc {
+    margin-right: 0;
   }
 
   .Project__visual {

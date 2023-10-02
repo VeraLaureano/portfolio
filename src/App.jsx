@@ -6,6 +6,8 @@ import Stack from "./Components/Stack"
 import Timeline from "./Components/Timeline"
 import heroImage from '/hero.jpg'
 import projectTwoImage from '/02.png'
+import MyNavbar from "./Components/Navbar"
+
 
 const projects = [{
   name: '422WRLD API',
@@ -18,6 +20,7 @@ const projects = [{
 function App() {
   return (
     <>
+      <MyNavbar />
       <main>
         <Hero image={heroImage} />
         <About />

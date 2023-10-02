@@ -60,6 +60,10 @@ h4,
   font-weight: 500;
 }
 
+p {
+  letter-spacing: .205px;
+}
+
 @media screen and (max-width: 479px) {
   :root {
     --title-size: calc(var(--mb-6) * 1.6);
