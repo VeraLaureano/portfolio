@@ -2,7 +2,7 @@
   border-top: 1px solid var(--gray);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 40vh;
+  min-height: 420px;
   gap: var(--mb-4);
 }
 
@@ -35,21 +35,24 @@
 
 .Project__visual {
   width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 
 .Project__visual > .image {
   height: 100%;
+  max-height: 520px;
   width: 100%;
   object-fit: cover;
   background-position: center;
-  background-attachment: fixed;
-  transition: .104s;
+  transition: .122s;
   filter: grayscale(.35);
 }
 
 .Project__visual > .image:hover {
-  transform: translateX(-2px) translateY(2px); 
-  filter: grayscale(0) opacity(1);
+  filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 767px)  {

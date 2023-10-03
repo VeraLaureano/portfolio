@@ -1,5 +1,6 @@
 .Stack {
   height: 35vh;
+  max-height: 320px;
   background-color: var(--black);
   display: flex;
   justify-content: center;
@@ -7,10 +8,11 @@
   box-shadow: 0 0 transparent;
   transition: .132s;
   background-color: #0000009a;
+  border-bottom: 1px solid transparent;
 }
 
 .Stack:hover {
-  box-shadow: 0 0 3px var(--primary);
+  border-bottom: 1px solid var(--primary);
 }
 
 .Stack__info {

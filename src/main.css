@@ -4,6 +4,7 @@
   --font: #E3E3E3;
   --gray: #707070;
   --primary: #D9BA5F;
+  /* --primary: #b12121; */
   
   --mb-1: .25rem; 
   --mb-2: .75rem; 
@@ -38,11 +39,6 @@ li {
   list-style: none;
 }
 
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
 body {
   font-family: 'Lora', serif;
   overflow-x: hidden;
@@ -62,6 +58,7 @@ h4,
 
 p {
   letter-spacing: .205px;
+  line-height: 1.28;
 }
 
 @media screen and (max-width: 479px) {

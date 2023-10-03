@@ -41,6 +41,13 @@
   opacity: .462;
 }
 
+@media screen and (min-width: 1440px) {
+  .About__content {
+    height: 50vh;
+    max-height: 640px;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .About__links {
     justify-content: space-evenly;

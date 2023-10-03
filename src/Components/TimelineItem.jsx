@@ -18,15 +18,14 @@ const TimelineItem = ({ date, name, children }) => {
 }
 
 TimelineItem.propTypes = {
-  date: PropTypes.number,
+  date: PropTypes.string,
   name: PropTypes.string,
   children: PropTypes.node
 }
 
 TimelineItem.propTypes = {
   date: '',
-  name: '',
-  children: ''
+  name: ''
 }
 
 export default TimelineItem

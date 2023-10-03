@@ -2,6 +2,7 @@ import React from 'react'
 import Anchor from './Anchor'
 import Title from './Title'
 import './About.css'
+import Link from './Link'
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
           Enthusiastic about problem-solving and process optimization.
           Possess a strong focus on code quality and efficiency.
         </p>
+        <Link target="_blank" link="https://drive.google.com/file/d/19olkphqoyboire8M5mF_BJlUL9KcGCmZ/view?usp=sharing"><code><i className="fa-solid fa-download"></i> Download CV</code></Link>
         <ul className="About__links">
           <li><Anchor link="https://www.instagram.com/v3r4_l4ur1/"><i className="fa-brands fa-instagram"></i></Anchor></li>
           <li><Anchor link="https://github.com/VeraLaureano"><i className="fa-brands fa-github"></i></Anchor></li>

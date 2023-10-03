@@ -1,4 +1,5 @@
 .Timeline__item {
+  padding: var(--mb-2);
   margin-bottom: var(--mb-1);
   width: 100%;
   position: relative;

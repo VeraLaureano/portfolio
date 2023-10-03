@@ -1,12 +1,10 @@
 .Timeline {
-  min-height: 100vh;
-  padding: var(--mb-5) 0;
+  margin: var(--mb-5) auto;
+  max-width: 1280px;
 }
 
 .Timeline__items {
   margin-top: 1rem;
-  max-width: 1024px;
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
   position: relative;

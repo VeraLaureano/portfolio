@@ -1,10 +1,12 @@
 import React from 'react'
 import './Timeline.css'
 import TimelineItem from './TimelineItem'
+import BigTitle from './BigTitle'
 
 const Timeline = () => {
   return (
     <section className="Timeline section" id="educ4tion">
+    <BigTitle>Education</BigTitle>
     <div className="container section-wrapper">
       <div className="Timeline__items">
         <TimelineItem name="Google" date="2020">
