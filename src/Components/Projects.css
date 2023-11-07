@@ -1,6 +1,6 @@
 .Projects {
   margin-bottom: var(--mb-6);
-  padding: var(--mb-2);
+  padding: var(--mb-6) var(--mb-2) ;
   max-width: 1280px;
   margin: 0 auto;
 }

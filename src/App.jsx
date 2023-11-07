@@ -5,16 +5,16 @@ import Projects from "./Components/Projects"
 import Stack from "./Components/Stack"
 import Timeline from "./Components/Timeline"
 import heroImage from '/hero.jpg'
-import projectTwoImage from '/02.png'
+import projectOneImage from '/01.png'
 import MyNavbar from "./Components/Navbar"
 
 
 const projects = [{
-  name: '422WRLD API',
-  techs: ['NodeJS', 'Express', 'Typescript', 'MongoDB', 'Eslint', 'Swagger','AI'],
+  name: 'AI-Qlou',
+  techs: ['NodeJS', 'Express', 'Typescript', 'MongoDB', 'ReactJS', 'Eslint', 'AI'],
   visit: 'https://four22-wrld.onrender.com/',
   code: 'https://github.com/VeraLaureano/modo-diablo-api',
-  image: projectTwoImage
+  image: projectOneImage
 }]
 
 function App() {

@@ -1,8 +1,8 @@
 .Project {
   border-top: 1px solid var(--gray);
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  min-height: 420px;
+  grid-template-columns: 2fr 1.5fr;
+  min-height: 460px;
   gap: var(--mb-4);
 }
 
@@ -57,7 +57,9 @@
 
 @media screen and (max-width: 767px)  {
   .Project {
+    min-height: 100vh;
     display: flex;
+    justify-content: center;
     padding-bottom: var(--mb-1);
     flex-direction: column-reverse;
     border-top: none;
@@ -69,7 +71,7 @@
   }
 
   .Project__visual {
-    height: 30vh;
+    height: 40vh;
     width: 100%;
   }
 

@@ -12,7 +12,7 @@ const About = () => {
         <Title>A l1tle of m3.</Title>
         <p className="About__sub"><code>Software Developer</code></p>
         <p className="About__desc">
-          Self-taught Backend Developer and Computer Engineering student.
+          Self-taught Software Developer and Computer Engineering student.
           Enthusiastic about problem-solving and process optimization.
           Possess a strong focus on code quality and efficiency.
         </p>
