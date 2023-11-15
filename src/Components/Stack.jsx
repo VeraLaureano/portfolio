@@ -6,7 +6,7 @@ const Stack = () => {
   return (
     <section id="st4ck" className="Stack">
     <div className="Stack__info">
-      <Title>DEV Sk1ll</Title>
+      <Title>DEV Sk1lls</Title>
       <ul className="Stack__list">
         <li><a className="Stack__link" rel='noreferrer' href="https://www.mongodb.com/" target="_blank">MongoDB</a></li>
         <li><a className="Stack__link" rel='noreferrer' href="https://expressjs.com/" target="_blank">Express</a></li>

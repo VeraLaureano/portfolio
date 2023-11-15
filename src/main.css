@@ -16,6 +16,8 @@
   
   --title-size: calc(var(--mb-6) * 1.97);
   --text-small: 14px;
+
+  font-size: 14px;
 }
 
 * {

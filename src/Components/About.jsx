@@ -22,7 +22,6 @@ const About = () => {
           <li><Anchor link="https://github.com/VeraLaureano"><i className="fa-brands fa-github"></i></Anchor></li>
           <li><Anchor link="https://www.linkedin.com/in/laureano-vera-320086204/"><i className="fa-brands fa-linkedin-in"></i></Anchor></li>
         </ul>
-        <p className="About__other"><code>2023?</code></p>
       </div>
     </div>
   </section>

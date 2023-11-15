@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import './TimelineItem.css'
 
-const TimelineItem = ({ date, name, children }) => {
+const TimelineItem = ({ name, date, children }) => {
   return (
     <div className="Timeline__item">
       <div className="Timeline__dot"></div>
@@ -18,8 +18,8 @@ const TimelineItem = ({ date, name, children }) => {
 }
 
 TimelineItem.propTypes = {
-  date: PropTypes.string,
   name: PropTypes.string,
+  date: PropTypes.string,
   children: PropTypes.node
 }
 
