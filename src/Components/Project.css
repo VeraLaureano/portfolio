@@ -2,8 +2,9 @@
   border-top: 1px solid var(--gray);
   display: grid;
   grid-template-columns: 2fr 1.5fr;
-  min-height: 460px;
+  min-height: 380px;
   gap: var(--mb-4);
+  margin: var(--mb-4) 0;
 }
 
 .Project__info {
@@ -45,7 +46,6 @@
   max-height: 520px;
   width: 100%;
   object-fit: cover;
-  background-position: center;
   transition: .122s;
   filter: grayscale(.35);
 }

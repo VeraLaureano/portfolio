@@ -26,7 +26,9 @@ const Project = ({ name, techs, visit, code, image, children }) => {
           <p className="desc">{children}</p>
           <div className="links">
             <a rel='noreferrer' href={visit} target="_blank"><i className="fa-solid fa-link"></i> Visit</a>
-            <a rel='noreferrer' href={code} target="_blank"><i className="fa-solid fa-code"></i> Code</a>
+            {code
+              ?<a rel='noreferrer' href={code} target="_blank"><i className="fa-solid fa-code"></i> Code</a>
+              : ''}
           </div>
         </div>
         <div className="Project__visual">
@@ -49,7 +51,7 @@ Project.defaultProps = {
   name: 'Project',
   techs: [],
   visit: '/',
-  code: '/',
+  code: undefined,
   image: ''
 }
 
